@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Gym App - Alwin</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="main.js"></script>
+</head>
+<body>
+    <div class="container">
+        <div id="back">
+            <button id="backBtn" onclick="backBtn()">Back</button>
+        </div>
+        <div class="addText" id="aT">
+            <h2 id="titleAdd">Add a Workout Day</h2>
+            <input type="text" id="oneText" placeholder="Add new Workout Day">
+            <button onclick="countDays(),createDay(),createUL()" id="addButton">Add</button>
+            <button onclick="addToWorkout()" id="addButton2">Add</button>
+            <button onclick="addAmount()" id="addButton3">Add</button>
+            <script>
+                var days=0;
+                var currentday=1;
+                var currentworkoutid;
+                function countDays(){
+                    days++;
+                }
+
+            </script>
+        </div>
+        <div class="list" id="Workouts">
+            <h2>Workout Days</h2>
+        </div>
+        <div class="specificWorkoutDay" id="sWD">
+            <h2 id="dayName">Untitled</h2>
+            
+        </div>
+        
+    </div>
+</body>
+</html>

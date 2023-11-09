@@ -1,0 +1,117 @@
+.container{
+    width: 100%;
+    min-height: 100vh;
+    background:linear-gradient(45deg,#3a3a3b,#05293a);
+    padding: 10px;
+    
+}
+#backBtn{
+    display: none;
+}
+html, body {
+    margin: 0;
+    padding: 0;
+  }  
+.addText{
+    width: 100%;
+    max-width:400px;
+    background: white;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+    
+
+
+}
+.addText input[type=text]{
+    width: 100%;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    margin: 8px 0;
+    padding: 8px;
+    box-sizing: border-box;
+}
+#addButton{
+    display: block;
+    margin: auto;
+    width: 100%;
+    max-width: 100px;
+    text-align: center;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    padding: 30px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+   background-color: rgb(19, 34, 247);
+
+}
+
+
+.list{
+    width: 100%;
+    max-width:400px;
+    background: rgb(10, 10, 10);
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+.list h2{
+color: white;
+}
+.list button{
+    display: block;
+    margin-top: 50px;
+    width: 100%;
+    
+    text-align: center;
+    
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    padding: 30px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+    background-color: rgb(109, 11, 79);
+    font-size: 25px;
+}
+.specificWorkoutDay {
+    display: none;
+    width: 100%;
+    max-width:400px;
+    background: white;
+    margin: 100px auto 20px;
+    padding: 40px 30px 70px;
+    border-radius: 10px;
+}
+#addButton2{
+    display: none;
+    margin: auto;
+    width: 100%;
+    max-width: 100px;
+    text-align: center;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    padding: 30px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+   background-color: rgb(19, 34, 247);
+}
+
+.specificWorkoutDay ul{
+    display: none;
+}
+#addButton3{
+    display: none;
+    margin: auto;
+    width: 100%;
+    max-width: 100px;
+    text-align: center;
+    border: 2px solid #aaa;
+    border-radius: 4px;
+    padding: 30px;
+    box-sizing: border-box;
+    color: rgb(255, 255, 255);
+   background-color: rgb(19, 34, 247);
+}
+#oneText2{
+    display: none;
+}
